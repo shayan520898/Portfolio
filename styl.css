@@ -774,6 +774,9 @@ position: relative;
 }
 
 @media(max-width:450px){
+    header{
+        padding-right:40rem;
+    }
     html{
         font-size: 50%;
     }
