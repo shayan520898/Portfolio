@@ -721,10 +721,7 @@ position: relative;
     }
     .navBar{
         position: absolute;
-        top: 100%;
-        left: 0;
-        width: 40%;
-        padding: 1rem 3%;
+       
         color: var(--text-color);
         background: var(--bg-color);
         border-top:1rem solid var(--white-color) ;
