@@ -440,15 +440,18 @@ position: relative;
     grid-template-columns: repeat(1,2fr);
     align-items: center;
     gap: 2.2rem;
+  
 }
 
 .service-box{
     background-color: var(--main-color);
     height: 350px;
     border-radius: 3rem;
-    border: 5px solid transparent;
+    border: 2px solid var(--text-color);
     cursor: pointer;
     transition: .4s ease-in-out;
+    box-shadow: 0 0 25px var(--text-color);
+    
 }
 
 .service-box:hover{
@@ -649,10 +652,9 @@ position: relative;
         display: block;
     }
     .navBar{
-        position: absolute;
         top: 100%;
-        right: 0;
-        width: 50%;
+        left: 0;
+        width: 40%;
         padding: 1rem 3%;
         background: var(--bg-color);
         backdrop-filter:blur(20px) ;
@@ -720,8 +722,11 @@ position: relative;
         display: block;
     }
     .navBar{
-        position: absolute;
-       
+        
+        top: 100%;
+        left: 0;
+        width: 40%;
+        padding: 1rem 3%;
         color: var(--text-color);
         background: var(--bg-color);
         border-top:1rem solid var(--white-color) ;
