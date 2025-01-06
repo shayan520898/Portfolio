@@ -584,9 +584,6 @@ position: relative;
     html{
         font-size: 35%;
     }
-    .home-content{
-       
-    }
     .home .home-content .text-animation{
         right: 12rem;
     }
@@ -611,7 +608,8 @@ position: relative;
 
 @media(max-width:991px){
     header{
-        padding: 2rem 3%;
+        margin-right: 30rem;
+        padding-right: 30rem;
     }
     section{
         padding:10px 3% 2rem;
@@ -725,7 +723,7 @@ position: relative;
         position: absolute;
         top: 100%;
         left: 0;
-        width: 50%;
+        width: 40%;
         padding: 1rem 3%;
         color: var(--text-color);
         background: var(--bg-color);
@@ -777,6 +775,10 @@ position: relative;
 }
 
 @media(max-width:450px){
+    .header{
+       
+        padding-right: 65rem;
+    }
     html{
         justify-content: center;
         align-items: center;
